@@ -198,8 +198,7 @@
     position:absolute;
     inset:0;
     background:url('assets/Imagem%20Hero.jpg') center 35%/cover no-repeat;
-    opacity:0.12;
-    filter:grayscale(20%);
+    opacity:0.22;
     pointer-events:none;
     z-index:0;
   }
@@ -340,6 +339,12 @@
       padding-top:110px;
       padding-bottom:56px;
       min-height:auto;
+    }
+    .hero::before{
+      background-size:100% auto;
+      background-position:center top 20px;
+      max-height:420px;
+      opacity:0.18;
     }
     .hero-inner{
       grid-template-columns:1fr;
